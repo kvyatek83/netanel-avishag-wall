@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netanel & Avishag</title>
+    <link rel="stylesheet" type="text/CSS" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body onclick="playAudio()">
+    <div class="scope">
+      <span style="--i: 1"><img src="./src/img/1.jpg" /></span>
+      <span style="--i: 2"><img src="./src/img/2.jpg" /></span>
+      <span style="--i: 3"><img src="./src/img/3.jpg" /></span>
+      <span style="--i: 4"><img src="./src/img/4.jpg" /></span>
+      <span style="--i: 5"><img src="./src/img/5.jpg" /></span>
+      <span style="--i: 6"><img src="./src/img/6.jpg" /></span>
+      <span style="--i: 7"><img src="./src/img/7.jpg" /></span>
+      <span style="--i: 8"><img src="./src/img/9.jpg" /></span>
+    </div>
+    <div class="netanel-avishag-brand">
+      <img class="brand" src="./src/img/N_A.png"/>
+    </div>
+    <div class="music">
+      <audio id="myAudio" autoplay loop>
+        <source
+          src="./src/mus/BackgrounSound.mp3"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio tag.
+      </audio>
+      <script>
+        var audio = document.getElementById("myAudio");
+
+        function playAudio() {
+          audio.play();
+        }
+      </script>
+    </div>
+  </body>
+</html>
