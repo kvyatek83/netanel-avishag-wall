@@ -97,7 +97,7 @@ body {
 @media only screen and (max-width: 760px) {
   body {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(71, 71, 71, 0.5)),
-      url(./src/img/mobile_background.JPG) no-repeat center center fixed;
+      url(./src/img/mobile_background.jpg) no-repeat center center fixed;
     background-size: cover;
   }
 
